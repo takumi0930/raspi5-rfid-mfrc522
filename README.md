@@ -8,10 +8,11 @@ https://github.com/sunfounder/davinci-kit-for-raspberry-pi
 /python-pi5/ にある以下の3つのファイル
 - MFRC522.py (import spidev, signal, time)
 - 2.2.10_read.py (import MFRC522, signal, time)
-- 2.2.10_write.py (import MFRC522, signal, time  
+- 2.2.10_write.py (import MFRC522, signal, time
+
 (RPi.GPIOが使われていないので，Raspberry pi 5でも動作できる)
 
-<br>
+<br><br>
 
 ここでは，上記の3つのファイルを基に，自分のプログラム用に使いやすくしたプログラムを共有する．
 
@@ -23,6 +24,8 @@ RFIDタグをリーダーにかざすと，そのRFIDタグのuidと保存され
 - rfid_write.py  
 2.2.10_write.pyを基に作成した．  
 RFIDタグをリーダーにかざして，書き込みたい文字を入力すると，そのuidのRFIDタグに書き込みができる.
+
+<br>
 
 また，フォルダ構成と依存関係を示す．
 
