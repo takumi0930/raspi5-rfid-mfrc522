@@ -12,7 +12,7 @@ https://github.com/sunfounder/davinci-kit-for-raspberry-pi
 
 (RPi.GPIOが使われていないので，Raspberry pi 5でも動作できる)
 
-<br><br>
+<br>
 
 ここでは，上記の3つのファイルを基に，自分のプログラム用に使いやすくしたプログラムを共有する．
 
